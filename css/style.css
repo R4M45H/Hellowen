@@ -306,43 +306,14 @@ margin-top: 0;
 
 .gallery{
   width: 100%;
-  max-width: 1905px;
+  max-width: 1920px;
   min-height: 814px;
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 115px;
+}
 
-}
-.gallery-photo{
-  background-size: cover; 
-  background-repeat: no-repeat;
-  width: 480px;
-  height: 407px;
-}
-.gallery-photo-1{
-  background-image: url(../images/photo1.jpg);
-}
-.gallery-photo-2{
-  background-image: url(../images/photo2.jpg);
-}
-.gallery-photo-3{
-  background-image: url(../images/photo3.jpg);
-}
-.gallery-photo-4{
-  background-image: url(../images/photo4.jpg);
-}
-.gallery-photo-5{
-  background-image: url(../images/photo5.jpg);
-}
-.gallery-photo-6{
-  background-image: url(../images/photo6.jpg);
-}
-.gallery-photo-7{
-  background-image: url(../images/photo7.jpg);
-}
-.gallery-photo-8{
-  background-image: url(../images/photo8.jpg);
-}
+
 
 /*=======Reviews=======*/
 
@@ -375,6 +346,7 @@ margin-top: 0;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   line-height: 21px;
+  color: #999999;
 } 
 .author{
   margin-top: 30px;
