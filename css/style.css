@@ -336,7 +336,9 @@ a:hover {
   flex-wrap: wrap;
   margin-bottom: 115px;
 }
-
+.gallery-photo{
+  margin: -3px;
+}
 /*=======Reviews=======*/
 
 .reviews h2 {
