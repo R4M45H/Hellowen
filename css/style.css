@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 14px;
   font-weight: 400;
   color: #000;
@@ -20,6 +20,7 @@ a:hover {
 
 .container {
   width: 100%;
+  /* сразу можно задать display:flex */
   max-width: 1140px;
   padding: 0 15px;
   margin: 0 auto;
@@ -28,17 +29,20 @@ a:hover {
 /*=======Header=======*/
 
 .header {
-  background: #4B4040;
+  background: #4b4040;
   background-image: url(../images/first-screen.jpg);
   background-repeat: no-repeat;
   width: 100%;
+  /* высоту лучше жёстко не прописывать */
   height: 740px;
 }
 
 .header-title {
   margin: 0 auto;
 }
-
+.header-title появляется второй раз,
+хотя вообще можно без этого div обойтись,
+/* выносим text-align: center, color: #fff и text-transform: uppercase в .header */
 .header-title {
   text-align: center;
   max-width: 936px;
@@ -73,7 +77,7 @@ a:hover {
 } */
 
 .numbers-item {
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
   width: 100%;
   max-width: 1110px;
   min-height: 300px;
@@ -98,7 +102,7 @@ a:hover {
 
 .item span.number {
   font-size: 72px;
-  color: #F7654A;
+  color: #f7654a;
   font-weight: 500;
   margin-bottom: 29px;
   margin-top: 19px;
@@ -153,10 +157,10 @@ a:hover {
 }
 
 .box-item h3::before {
-  content: '';
+  content: "";
   left: 0;
   bottom: 50px;
-  background-color: #F7654A;
+  background-color: #f7654a;
   width: 55px;
   height: 6px;
   position: absolute;
@@ -185,7 +189,7 @@ a:hover {
 /*=======Feedback=======*/
 
 .feedback {
-  background-color: #F7654A;
+  background-color: #f7654a;
 }
 
 .feedback-inner {
@@ -229,13 +233,13 @@ a:hover {
 }
 
 .feedback-btn::before {
-  content: '';
+  content: "";
+  /* иконку вставлять фоном очень плохая практика */
   background-image: url(../images/mini-mail.svg);
   background-repeat: no-repeat;
   width: 18px;
   height: 18px;
   left: 30px;
-  ;
   top: 18px;
   position: absolute;
 }
@@ -274,7 +278,7 @@ a:hover {
   padding: 40px 123px 50px 117px;
   width: 350px;
   height: 250px;
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
 }
 
 .program-items:nth-child(1),
@@ -289,7 +293,6 @@ a:hover {
   width: 60px;
   height: 60px;
   margin-bottom: 14px;
-
 }
 
 .program-item-1 {
@@ -336,7 +339,7 @@ a:hover {
   flex-wrap: wrap;
   margin-bottom: 115px;
 }
-.gallery-photo{
+.gallery-photo {
   margin: -3px;
 }
 /*=======Reviews=======*/
@@ -363,13 +366,13 @@ a:hover {
   max-width: 350px;
   min-height: 259px;
   padding: 79px 30px 38px 30px;
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
 
   position: relative;
 }
 
 .review p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 21px;
   color: #999999;
 }
@@ -471,7 +474,7 @@ a:hover {
 }
 
 .orange {
-  color: #F7654A;
+  color: #f7654a;
 }
 
 /*========Footer=======*/
@@ -487,7 +490,7 @@ a:hover {
 
 .footer-inner p {
   display: inline-block;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 21.8px;
   color: #fff;
