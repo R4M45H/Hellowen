@@ -38,6 +38,10 @@ a:hover {
   background: #4b4040;
   background-image: url(../images/first-screen.jpg);
   background-repeat: no-repeat;
+  /* background-position: center;
+  background-size: cover;
+  или в одну строчку
+  background: #4b4040 url(../images/first-screen.jpg) center / cover no-repeat; */
   width: 100%;
   min-height: 740px;
   text-align: center;
@@ -49,8 +53,10 @@ a:hover {
   font-size: 64px;
   font-weight: 500;
   line-height: 95px;
+  /* line-height лучше задавать в процентах */
   letter-spacing: 1.3px;
   padding: 190px 0 18px 0;
+  /* padding: 190px 0 18px; */
 }
 
 .header-subtitle {
@@ -71,6 +77,7 @@ a:hover {
   align-items: center;
   padding: 57px 130px;
   margin: -150px auto 0 auto;
+  /* margin: -150px auto 0; */
 }
 
 .start-box {
@@ -124,6 +131,7 @@ a:hover {
 
 .holidays > .page-title {
   padding: 98px 0px 49px 0px;
+  /* padding: 98px 0 49px; */
   color: #404149;
   width: 100%;
   max-width: 1110px;
@@ -408,7 +416,9 @@ footer > .container {
   justify-content: space-between;
 }
 
+/* так лучше не делать, контейнер общий для всей страницы и его внутренности лучше не переопределять, лучше сделать footer p */
 .container > p {
+  /* p итак блочный элемент, плюс находится во флекс контейнере, наверное нет смысла в display: inline-block; */
   display: inline-block;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -417,5 +427,6 @@ footer > .container {
   padding: 30px 0;
 }
 .container > p + p {
+  /* надо ли это правило? этот параграф находится во флекс контейнере плюс выравнивание по краям */
   text-align: right;
 }
