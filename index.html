@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!-- на странице русский язык, атрибут lang выставляем в ru -->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Хэллоуин</title>
+    <!-- помним о каскадности CSS, линки в head имеют следующий приоритет, правила в файле, расположенном ниже, переписывают правила в файле выше. т.е. чем ниже файл, тем приоритетнее его правила -->
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Oswald:300,400,500,600,700&display=swap&subset=cyrillic"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/reset.css" />
+    <!-- подключен только reset.css, тогда из папки можно удалить normalize.css -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -123,7 +126,7 @@
         <img src="images/photo7.jpg" alt="photo" width="475px" height="407px" />
         <img src="images/photo8.jpg" alt="photo" width="475px" height="407px" />
       </div>
-   
+
       <!-- Reviews -->
       <section class="reviews">
         <h2 class="page-title">отзывы ПОСЕТИТЕЛЕЙ</h2>
@@ -132,21 +135,21 @@
             <div class="review">
               <p>
                 Это было, пожалуй, лучшее мероприятие из всех, на которых я
-                была. Отличная музыка и интерьер. Не пожалела, что позвала
-                своих другей. Мы отлично провели время и я обязательно приду
-                на следущие мероприятия. Не сомневайтесь, будет весело.
-               </p>
+                была. Отличная музыка и интерьер. Не пожалела, что позвала своих
+                другей. Мы отлично провели время и я обязательно приду на
+                следущие мероприятия. Не сомневайтесь, будет весело.
+              </p>
             </div>
-              <p class="author">Анастасия Звягинцева</p>
+            <p class="author">Анастасия Звягинцева</p>
           </div>
-           
+
           <div class="review-box">
             <div class="review">
-               <p>
-                Долго думал: стоит идти или нет. В последний момент решился и
-                не пожалел. Участвовал в конкурсах, получил множество
-                подарков, бонусов и даже бонусную карту в магазин DNS. В
-                следующем году тоже пойду и приведу своих друзей.
+              <p>
+                Долго думал: стоит идти или нет. В последний момент решился и не
+                пожалел. Участвовал в конкурсах, получил множество подарков,
+                бонусов и даже бонусную карту в магазин DNS. В следующем году
+                тоже пойду и приведу своих друзей.
               </p>
             </div>
             <p class="author">Валерий Атлетов</p>
@@ -156,9 +159,9 @@
             <div class="review">
               <p>
                 Самый мистический день в году хочется провести как-то по
-                особенному... Искал мероприятия и наткнулся на этот сайт.
-                Изучив локацию, программу и прочее, решил выбрать именно их.
-                Это лучшее решение! Зовите сюда всех своих друзей и подруг!
+                особенному... Искал мероприятия и наткнулся на этот сайт. Изучив
+                локацию, программу и прочее, решил выбрать именно их. Это лучшее
+                решение! Зовите сюда всех своих друзей и подруг!
               </p>
             </div>
             <p class="author">Максим Семенов</p>
@@ -179,6 +182,7 @@
           </a>
         </div>
       </aside>
+      <!-- main закрываем здесь и здесь же открываем footer -->
 
       <!-- Contacts   -->
       <div class="contacts">
@@ -187,7 +191,12 @@
           <div class="contacts-box">
             <div class="contact-item">
               <h3>Адрес:</h3>
-              <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/place/%D0%9D%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9+%D0%BF%D1%80.,+140,+%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3,+191036/data=!4m2!3m1!1s0x469631bb92b2b7f5:0xfc6c3540c8fb3df8?sa=X&ved=2ahUKEwi95e2xjLDnAhVKK5oKHcyKCKIQ8gEwAHoECAsQAQ">Невский проспект 140, офис 140-142</a> 
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.google.com/maps/place/%D0%9D%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9+%D0%BF%D1%80.,+140,+%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3,+191036/data=!4m2!3m1!1s0x469631bb92b2b7f5:0xfc6c3540c8fb3df8?sa=X&ved=2ahUKEwi95e2xjLDnAhVKK5oKHcyKCKIQ8gEwAHoECAsQAQ"
+                >Невский проспект 140, офис 140-142</a
+              >
             </div>
             <div class="contact-item">
               <h3>Телефон:</h3>
@@ -209,15 +218,16 @@
           </div>
         </div>
       </div>
-     
+
       <!-- Footer -->
       <footer>
         <div class="container">
-            <p>© 2019 Праздники с душой</p>
-            <p>Сайт разработала <span class="orange">Анна Блок</span></p>
+          <p>© 2019 Праздники с душой</p>
+          <p>Сайт разработала <span class="orange">Анна Блок</span></p>
         </div>
       </footer>
- 
+
+      <!-- скрипты не используются, можно эти строчки и файлы удалить -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
       <script src="js/main.js"></script>
     </main>
