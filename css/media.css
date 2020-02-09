@@ -1,0 +1,387 @@
+@media (max-width: 1919px) {
+  .gallery {
+    justify-content: center;
+  }
+
+  .gallery img {
+    margin: 10px;
+  }
+}
+
+@media (max-width: 1200px) {
+
+  .container>.program-box {
+    width: 420px;
+    height: 350px;
+    padding: 54px 120px 59px 120px;
+  }
+
+  .container>.program-box img {
+    width: 100px;
+    height: 80px;
+  }
+
+  .container>.program-box h5 {
+    font-size: 28px;
+    max-width: 170px;
+  }
+
+  .gallery img {
+    width: 425px;
+    height: 357px;
+  }
+
+  section.reviews>.container {
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+
+  .review.review-1,
+  .review.review-2,
+  .review.review-3 {
+    max-width: 870px;
+    min-height: 170px;
+    margin: 0 auto;
+    padding: 79px 30px 38px 30px;
+  }
+
+  .review p {
+    font-size: 18px;
+  }
+
+  .author {
+    margin: 25px 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .container>.btn:hover {
+    background-color: none;
+  }
+
+  .contacts-box>.contact-item a:hover {
+    color: #F7654A;
+  }
+
+  .container>.header-title {
+    font-size: 36px;
+    line-height: 75px;
+    padding: 80px 0 18px 0;
+  }
+
+  header.page-header {
+    min-height: 540px;
+    background-position: -1000px -100px;
+  }
+
+  aside.start {
+    max-width: 600px;
+    min-height: 250px;
+    padding: 37px 25px;
+    margin: -150px auto 0 auto;
+  }
+
+  aside .start-box {
+    max-width: 120px;
+  }
+
+  aside .start-box:first-child {
+    max-width: 80px;
+  }
+
+  aside .start-box h2 {
+    font-size: 44px;
+  }
+
+  aside .start-box h3 {
+    font-size: 28px;
+  }
+
+  .holidays>.container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container>.holiday-box {
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+
+  .container>.holiday-box img {
+    width: 100%;
+  }
+
+  .banner>.text-box h4 {
+    font-size: 34px;
+  }
+
+  section.program>.container {
+    margin-bottom: 20px;
+  }
+
+  section.program>.page-title {
+    padding: 100px 0 55px 0;
+  }
+
+  .gallery>.gallery-title {
+    display: inline-block;
+  }
+
+  .container>.text-box h4 {
+    font-size: 34px;
+  }
+
+  .contacts-box>.contact-item h3 {
+    font-size: 18px;
+    margin: 12px 0 17px 0;
+  }
+
+  .contacts-box>.contact-item a,
+  .contacts-box>.contact-item p {
+    font-size: 18px;
+  }
+
+}
+
+@media (max-width: 560px) {
+  .container>.header-title {
+    font-size: 24px;
+    line-height: 48px;
+    padding: 80px 0 18px 0;
+  }
+
+  header.page-header {
+    min-height: 440px;
+    background-position: -1000px -100px;
+  }
+
+  aside.start {
+    flex-wrap: wrap;
+    padding: 10px 25px;
+    margin: -100px auto 0 auto;
+  }
+
+  .holidays>.page-title {
+    font-size: 24px;
+    line-height: 48px;
+  }
+
+  section.holidays>.page-title {
+    padding: 50px 0px 49px 0px;
+  }
+
+  .banner>.container {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container>.text-box h4 {
+    text-align: center;
+  }
+
+  .container>.btn {
+    margin: 10px auto 20px;
+  }
+
+  .container>.text-box h4 {
+    font-size: 20px;
+    line-height: 48px;
+  }
+
+  .container>.text-box p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  section.program>.page-title {
+    padding: 50px 0 55px 0;
+    font-size: 24px;
+    line-height: 48px;
+  }
+
+  .container>.program-box {
+    width: 420px;
+    height: 150px;
+    padding: 10px 50px 10px 10px;
+  }
+
+  div.gallery {
+    margin-bottom: 55px;
+  }
+
+  .gallery img {
+    width: 345px;
+    height: 287px;
+  }
+
+  .review p {
+    font-size: 14px;
+  }
+
+  .review.review-1 p::before,
+  .review.review-2 p::before,
+  .review.review-3 p::before {
+    display: none;
+  }
+
+  .reviews-box>.author {
+    font-size: 16px;
+    line-height: 31.1px;
+  }
+
+  .review.review-1,
+  .review.review-2,
+  .review.review-3 {
+    max-width: 870px;
+    min-height: 70px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+
+  .reviews>.page-title {
+    font-size: 24px;
+    line-height: 48px;
+  }
+
+  div.contacts {
+    margin-top: 50px;
+  }
+
+  .container>.page-title {
+    font-size: 24px;
+    line-height: 48px;
+  }
+
+  .container>.contacts-box {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 540px;
+    min-height: 195px;
+    padding-bottom: 50px;
+  }
+
+  .contacts-box>.contact-item {
+    width: 100%;
+    max-width: 220px;
+    min-height: 191px;
+    margin: 10px;
+  }
+
+  footer>.container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer>.container>p {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 490px) {
+  aside .start-box {
+    max-width: 190px;
+  }
+
+  aside .start {
+    justify-content: center;
+  }
+
+  aside .start-box:first-child {
+    max-width: 190px;
+  }
+}
+
+@media (max-width: 440px) {
+  aside .start-box {
+    max-width: 180px;
+  }
+
+  aside .start-box h2 {
+    font-size: 36px;
+  }
+
+  aside .start-box h3 {
+    font-size: 24px;
+  }
+
+  .container>.header-title {
+    font-size: 20px;
+    line-height: 40px;
+    padding: 50px 0 18px 0;
+  }
+
+  .container>.header-subtitle {
+    font-size: 14px;
+    line-height: 26px;
+
+  }
+
+  header.page-header {
+    min-height: 340px;
+    height: 100%;
+    background-position: right;
+    background-size: cover;
+  }
+
+  section.holidays>.page-title {
+    padding: 50px 0px 50px 0px;
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  section.program>.page-title {
+    padding: 50px 0 50px;
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  .container>.program-box h5 {
+    font-size: 20px;
+  }
+
+  .container>.program-box img {
+    width: 80px;
+    height: 60px;
+  }
+
+  .gallery>.gallery-title {
+    font-size: 20px;
+    line-height: 40px;
+    padding: 50px;
+  }
+
+  .container>.page-title {
+    font-size: 20px;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 320px) {
+  .container>.program-box {
+    width: 420px;
+    height: 150px;
+    padding: 10px 10px 10px;
+  }
+
+  .gallery img {
+    width: 275px;
+    height: 227px;
+  }
+
+  .container>.holiday-box img {
+    width: 90%;
+  }
+
+  aside.start {
+    max-width: 250px;
+    min-height: 0px;
+    padding: 37px 5px;
+    justify-content: center;
+    margin: -50px auto 0 auto;
+  }
+}
