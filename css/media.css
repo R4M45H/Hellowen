@@ -56,11 +56,14 @@
 }
 
 @media (max-width: 800px) {
-  .container>.btn:hover {
-    background-color: none;
+  .container > a.btn:hover {
+    background-color: #FFFFFF;
   }
 
   .contacts-box>.contact-item a:hover {
+    color: #000000;
+  }
+  .contacts-box>.contact-item a.orange:hover {
     color: #F7654A;
   }
 
