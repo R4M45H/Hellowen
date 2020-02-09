@@ -361,6 +361,26 @@
   }
 }
 
+@media (max-width: 440px) {
+  aside.start {
+    max-width: 320px;
+    justify-content: center;
+  }
+  aside .start-box {
+    max-width: 190px;
+  }
+}
+
+@media (max-width: 360px) {
+  aside.start {
+    justify-content: center;
+  }
+
+  section.holidays>.page-title {
+    padding: 50px 10px;
+  }
+}
+
 @media (max-width: 320px) {
   .container>.program-box {
     width: 420px;
@@ -381,7 +401,6 @@
     max-width: 250px;
     min-height: 0px;
     padding: 37px 5px;
-    justify-content: center;
     margin: -50px auto 0 auto;
   }
 }
